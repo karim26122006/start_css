@@ -1,0 +1,594 @@
+/* .one {
+    background-color: #eee;
+    text-align: center;
+color: black;
+} */
+/* .tow:hover{
+     هتحط اسم الديف وبعد كد تحط اي تاثير اللي منهم الهوفر ده بيخللي العنصر لونه يتغير لماتقف علي 
+    color: rgb(129, 13, 13);
+} */
+ /* .one::first-line{
+  دي برضو من التاثيرات المهمه بتخليك تتحكم في السطر كللو 
+    display: inline-block;
+    .one::first-letter{
+    دي برضو من التاثيرات المهمه بتخليك تتحكم في الحرف الاول بس 
+    background-color: red;
+    color: wheat;
+    font-size: 20px;
+    } */
+    
+  /* .parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+     لازم علشان تعمل اي تاثيرات يكون الاوفر فلو هيدين علشان ميبوظش شكل الصفحه    
+    counter-increment: members-counter;
+     دي لو عايز تعمل عداد بيعد كل الديفات اللي في الصفحه تلقاي 
+  }
+  .one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+     الفلوت ده بتعملو علشانتظبط تنسيق الصفحه زي منتا عايز او علشان تحط دفات جمب بعض   
+    position: relative;
+     لازم برضو علشان تضيف اي تاثيرات يكون الديف اللي انتا عايز تضيف له تاثير يكون البوزيشن بتاعو ريليتف و التاثير نفسو يكون البوزيشن بتاعو ابسلوت <absolute>    
+
+  }
+  .one::before {
+     دي لو عايز تضيف الثير بعد  الديف  
+    content: attr(data-text);
+         دي لو عايز تعمل عداد بيعد كل الديفات اللي في الصفحه تلقاي بتتكتب في الديف الاب و البيفور  
+    display: none;
+     لازم علشانتعمل اي تاثير يكون عندك كونتنت فاضي وتتحكم فيه  
+  }
+  .one:hover::before {
+    display: block;
+     الكودين اللي فاتو دول لما تيجي تحط الماوس على الديف بيظهر الكلمه اللي انتا عاملها <display: none;> 
+  }
+  .one::after {
+     دي لو عايز تضيف الثير قبل  الديف  
+    content: counter(members-counter);
+     لازم علشانتعمل اي تاثير يكون عندك كونتنت فاضي وتتحكم فيه  
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    margin-top: -10px;
+  }
+  .user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 55.5px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+  }
+  ul li {
+    position: relative;
+  }
+  ul li::before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #009688 transparent transparent;
+     العشر اكواد اللي فاتو دول علشان تعمل اسهم على اللسته 
+  } */
+
+   /* .rt {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px auto;
+    border-radius: 6px;
+     الريديوس دي يعني نصف القطر او حديه الحواه لو وصلت الى 50 هتبقى عملت دايره 
+   } */
+   /* .ty {
+    padding: 20px;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow:0px 0px 0px 0px black
+ البوكس شادو دي هي ضل الديف اكتب جمبها0000 بهد كدا ظبط فيها كل اللي انتاعايزو في الانسبكت  
+ ققدر تعملاكتر من شادو 
+  } */
+
+  /* .parent {
+    width: 600px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ddd;
+  }
+  .one {
+    background-color: #eee;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+     بيزيد على الديف فبيبوظ شكلو وهوا ده الطبيعي margin او border  الكونتنت بوكس ده لما بتزود عليه
+    مش بيزيد على الديف بس بيتحسب منو و مش بيبوظ الشكل  margin او border     البوردر بوكس ده لما بتزود عليه
+    بس بدل ما تستخدم البوكس سايزينجدي كل شويه حط الكود ده قبل اي شغل والشغل بتاعك لو محتاج هيحطو 
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  } */
+
+/* اللي جي ده هو كل ما يخص الترنزشن  */
+  /* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  } */
+  /* .one {
+    background-color: #EEE;
+    width: 200px;
+    height: 100px;
+    transition-property: all;
+ دي الحجات اللي انتا عايز تعملها تاثير زي الطول و العرض و الارتفاع
+     transition-duration: 1s;
+     ده الوقت اللي هيحصل فيه التاثير
+     transition-delay: 0.2s;
+     الوقت الليل انتا هتكتبو في الكود ده هوا البقت اللي هتستناه علشان التاثير يبدا
+     transition-timing-function: ease;
+     لما تكتب الكود دهالتاثير بيبقا بطيق في الاول و سريع في النص بعد كدا بطيق في الاخر 
+     transition: all 2s 0.5s ease;
+     الكود ده بق تقدر تلخص فيه كل الكلام ده 
+  }
+  .one:hover {
+     margin-left: 20px; 
+     width: 280px; 
+      height: 120px; 
+  } */
+ 
+
+  /* كل اللي جي ده هو كل ما يخص المتغيرات */
+  /* :root { المتغيرات لازم تكون في رووت
+    --mainPadding: 10px;
+    --mainColor: blue;
+    بتكتب اي اسم يعجبك قبلو شرطتين بعد كدا بتكتب المتغير اللي هوا اللون او الطول او العرض 
+     بعد كدا بتكتب عند اللي انتا عايز تغيرو كلمه فار وتكتب فيها الاسم بتاع المتغير زي الكود اللي تحت ده
+  }
+  .main {
+    background-color: var(--mainColor, black);
+    color: white;
+    padding: calc(20px + var(--mainPadding));
+  }
+  h2 {
+    color: var(--mainColor);
+    background-color: #eee;
+    padding: var(--mainPadding);
+  }
+  p {
+    color: var(--mainColor);
+    border: 2px solid var(--mainColor);
+    padding: var(--mainPadding);
+  }
+  a:hover {
+    color: var(--mainColor);
+  }
+  .local {
+    --mainColor: black;
+    background-color: var(--mainColor);
+    color: white;
+  } */
+
+  /* كل اللي جي ده يخص الفلكس بوكس */
+  /* دي مقارنه بين الفليكس بوكس و الفلوت ليفت */
+   /* * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .flex {
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;  */
+      /* ميزه الفليكس انك مش محتاج تعمل في الاب اوفر فلو هيدين  
+     flex-direction: row;  
+     ده بيخللي ترتيب الصفحه من الشمال لليمين 
+     direction: rtl; 
+ ده بيخللي ترتيب الصفحه من اليمين للشمال 
+     flex-direction: row-reverse; 
+     ده بيخللي ترتيب الصفحه من الشمال لليمين زي ما هو بي بيعكس تلرتيب لبدفات 
+     flex-direction: column; 
+     دي بتخللي الدفات تحت بعضها  
+     flex-direction: column-reverse; 
+       دي بتخللي الدفات تحت بعضها  بي عكس الترتيب يعني اللي تحت فوق وللي فوق تحت 
+     flex-wrap: nowrap; 
+     الفلكس راب ده بيبقا للحجات الزياده يعني لو ضفت ديف زياده وعملت الفلكس راب < نوراب هيخليي الديف الجديد ده جمبهم عادي مش هيبوظ الشكل ا 
+     flex-wrap: wrap; 
+     الفلكس راب ده بيبقا للحجات الزياده يعني لو ضفت ديف زياده وعملت الفلكس راب < راب هيخليي الديف الجديد ده تحتهم ا 
+     flex-wrap: wrap-reverse; 
+     الفلكس راب ده بيبقا للحجات الزياده يعني لو ضفت ديف زياده وعملت الفلكس راب < راب ريفيرس هيخليي الديف الجديد ده فوقهم ا 
+ flex-flow: row wrap; 
+ ده اختصار للخاصيتين اللي فوق دول ممكن تحطهم في سطر واحد 
+ justify-content: flex-start; 
+ ده بيخللي الدف  علي الشمال وده الطبيعي  (افقي)
+ justify-content: flex-end; 
+ ده بيخللي الدف  علي اليمين   (افقي)
+ justify-content: center; 
+ ده بيخللي الدف  في النص   (افقي)
+ justify-content: space-between; 
+ ده بيخللي اي مساحه زايده في الديف تتقسم لمسافات بين الدفات وبعضها بس لازم تقلل الويدث بتاعت الدفات  
+ justify-content: space-around; 
+ ده بيخللي اي مساحه زايده في الديف تتقسم قبل وبعد الديف بس لازم تقلل الويدث بتاعت الدفات    */
+/* align-items: stretch;
+ ده يخليك لما تمدد ديف باقي الدفات بتتمدد معاه  
+align-items: flex-start;
+او بيخللي الديف فوق عموما (راسي)
+ده بيخللي الدفات اللي جمب الديف اللي انتا مددتو يبقو جمبو من فوق
+align-items: flex-end;
+او بيخللي الديف تحت عموما (راسي)
+ده بيخللي الدفات اللي جمب الديف اللي انتا مددتو يبقو جمبو من تحت
+align-items: center;
+او بيخللي الديف في النص عموما (راسي)
+ده بيخللي الدفات اللي جمب الديف اللي انتا مددتو يبقو جمبو في النص */
+/* align-content: flex-start; */
+/* ده بيجيب المحتوى كله في البدايه او في النص او في النهايه ما بيسيبش اي مسافات انما في الطبيعي الدفات بيبقى ما بينها مسافات ولو عايز مسافات تقدر تكتب انلين كونتينت= سبيس اروند او اسبيس بتوين */
+/* flex-grow: 0; */
+/* الفليكس جرو ده بتقدر تعتبره هو كبر الدف كل لما تزوده الرقم بيكبر اكتر  علشان يملا الاب تقدر برده تكبر ديف عن غيره والفليكس جرو ده بيتحط في الدفات الاطفال مش الاب */
+/* flex-shrink: 1; */
+/* دي تقدر تقول عليها اولويه الصفر يعني ايه يعني لما تيجي تصغر الديف الاب كل لما تيجي تصغره الديف الاب كل العناصر هتفضل زي ما هي ما عدا اللي انت عملته شرنج كله هيفضل نفس الحجم ما عدا هو هيفضل يصغر علشان الحجم يكفي */
+/* order: 3; */
+/* خاصيه الاوردر دي بتتحط في اي ديف انت عايز تغير مكانه يعني مثلا لو عندك ست دفات جنب بعض ممكن تروح عند الديف الاول وتقول لي ( اوردر = ثلاثه) هيبقى مكانه مكان الدف رقم 3 ده بيتحط في الديف المطلوب تغير مكانه */
+/* ممكن تعملو -1 علشات تجيب العنصر اللي انتا عايزو اول واحد */
+/* flex-basis: 300px; */
+/* الفليكس بيسس ده زيه زي الودث بالظبط بس الفكره اللي انت لو عملت اي تغيير في الصفحه مثلا لو خليتها بالطول بدل العرض فالفليكس بيسس ده بيتحول مع الصفحه مش بيبوظ الشكل و الميزه ان ليه اختصار ممكن الفليكس شرنج و الفلكس جرو و الفلكس بيسس مع بعض في خاصيه (فليكس) */
+/* display: inline-flex; */
+/* الان لاين فليكس دي بتحطها في [العنصر] اللي انتا عايز تحطو جمب اب فيه شويه دفات معمولين بلفلكس */
+/* align-self: flex-end او flex-start; */
+/* ده لو عايز تعمل تركيز على ديف معين تخليه ينزل تحت او يطلع فوق او يبقا استريتش يتمدد في الديف الاب */
+   /* }
+  .flex div {
+    background-color: #f00;
+    color: white;
+    width: calc(98% / 3);
+    text-align: center;
+    padding: 20px;
+  }
+  .float {
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  .float div {
+    background-color: #f00;
+    color: white;
+    float: left;
+    width: calc(98% / 3);
+    text-align: center;
+    padding: 20px;
+  }   */
+  
+/* الفلاتر  */
+/* filter: grayscale; */
+/* ده بيخللي الصوره ابيض و اسود  */
+/* filter : blur; */
+/* ده ييعمل على الصوره بلور */
+/* مفيش html/ */
+
+/* تدرج الالوان  */
+/* اكنك بتعمل صوره */
+/* .one { */
+  /* background-image: linear-gradient( to right او left او top او  bottom, red, green); */
+  /* ده تدرج الالوان من اليمين او الشمال او من فوق او لتحت */
+  /* background-image: linear-gradient( {150deg} bottom, red 20%, green); دي 20من حجم الديف */
+  /* اللي مابين الاقواس دي هيا الزويه بتاعت تدرج الالوان */
+  /* background-image: linear-gradient( {150deg} bottom, red 20%, red 40%, green); لو عايو اللون يبدا في حته وينتهي في خته انتا عايزها */
+  
+ /* width: 800px;
+  height: 300px; */
+
+
+/* كل اللي جي ده يخص الجرد  */
+
+
+/* .parent {
+  margin: 20px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #ddd;
+  display: grid; */
+  /* الجريد ده تقدر تسميه تقسيم الصفحه لاكن للاعمد
+ grid-template-columns: repeat(4, auto) 
+ لرقم اللي بعد الريبيت ده هو عدد الاعمده وبدل الاوتو دي هي الويدز ممكن تكتب اي رقم انت عايزه
+ grid-template-columns: 100PX 200PX 200PX 100PX مثال تاني 
+ الارقام دي هي الوتس بتاعي كل عمود انت حاطو
+ grid-template-columns:  auto auto auto auto مثال تاني 
+ ممكن تخلي عدد الاعمده تاخذ حجم الديف الاب كللو
+ grid-template-columns:  auto auto fr1 fr1  مثال تاني 
+ الفراكشن = جزء زيه زي الاوتو لكن الفراكشن  بياخد جزء من الدف الاب انما الاوتو بياخد على قد المحتوى اللي جواه لكن الفركشن احسن */
+ /* grid-template-rows: 100px 200px 200px;
+ الجريد ده تقدر تسميه تقسيم الصفحه لاكن للصفوف
+ grid-template-rows: 20% 60% 20%; مثال تاني 
+ grid-template-rows: auto auto 1fr,  مثال تاني  */
+/* row-gap: 5px;
+لجاب دي هي المسافات ما بين الدفات الرو جاب دي هي المسافات ما بين الصفوف
+column-gap: 5px; 
+الكولوم جاب دي هي المسافات ما بين الاعمده */
+/* gap: 10px 10px; */
+/* ده الرمز المختصر بتاعهم */
+/* justify-content: space-between;
+دي المسافات ما بين الاعمده لوعايز تملا المحتوى  */
+/* align-content: space-between;
+دي المسافات ما بين الصفوف لوعايز تملا المحتوى  */ 
+/* grid-column: span 4;
+ده عدد الاعمده اللي انتا عايز الديف ياخدهم
+grid-column: 2/5;
+كده انتا بتقللو ابدا من الديف رقم ٢
+grid-raw: span 4;
+ده عدد الصفوف اللي انتا عايز الديف ياخدهم
+ كريم محمد:البدايه من الصف التاني 
+grid-column-start: 2;
+البدايه من العمود التاني 
+grid-row-end: 5;
+النهايه عند الصف الرابع
+grid-column-end: 6;
+النهايه عند العمود الخامس
+ grid-template-columns: repeat(auto-fill, 200px);
+الاوتو فيل = املا الصفحه بعدد اعمده ٢٠٠px
+ grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+كدا انتا بتقللو املا الصفحه بعدد اعمده الويتث بتاعو ٢٠٠px ولو فيه مساحه فاضيه كملها
+/* } */
+/* .parent div {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+} */
+
+ /* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+.page {
+  height: 100vh;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "logo logo nav nav nav nav nav nav nav nav"
+    "cont cont cont cont cont cont cont . side side"
+    "foot foot foot foot foot foot foot foot foot foot";
+}
+h2 {
+  grid-area: logo;
+  background-color: red;
+  color: white;
+}
+nav {
+  grid-area: nav;
+  background-color: blue;
+  color: white;
+}
+section {
+  grid-area: cont;
+  background-color: yellow;
+  color: white;
+}
+aside {
+  grid-area: side;
+  background-color: green;
+  color: white;
+}
+footer {
+  grid-area: foot;
+  background-color: black;
+  color: white;
+} */
+/* 
+
+
+كل اللي جي ده يخص الترانسفورم d2
+
+transform: scalex(1.5);
+ده كدا التمدد او السحب اللي بتديه للعنصر بلعرض
+transform: scaley(1.5);
+ده كدا التمدد او السحب اللي بتديه للعنصر بلطول
+transform: scale(1.5);
+ده كدا التمدد او السحب اللي بتديه للعنصر بلطول و بلعرض
+transform: rotate(10deg);
+ده تقدر تسميه دوران العنصر بلدرجات لو عملتو موجب هيلف لليمين ولو عملتو سالب هيلف للشمال
+transform: translate (10px, 10px);
+ده تحريك العنصر للأربع اتجاهات 
+الرقم الاول ده لو عملتوا بلموجب هينزل لتحت ولو بلسالب هيطلع لفوق و الرقم التاني ده لو عملتو بلموجب هيروح يمين ولو عملتو بلسالب هيروح شمال
+transform: skew(20, 20deg);
+ده انحراف العنصر لليمين او للشمال  لازم تجرب علشان تفهم
+transform: translateX(20px) translateY(20px) scaleX(1.2) skewY (15deg) skewX(10deg) scaleY(1.2);
+ده كود مجمع كل الخواص اللي فاتت دي
+transform-origin: right, bottom;
+transform: rotate(550deg);
+الاوريجن ده تقدر تسميه مركز اللفه او السنتر بتاع الديف و الرقم اللي في السطر التاني ده كل لما تزودو اللفه هتزيد
+جرب علشان تفهم
+transform: rotateX(90deg);
+transform: rotateY(90deg);
+transform: rotateZ(90deg);
+transform: rotate3d( 1, 1 , 1,50deg);
+جرب كل واحده فيهم بنفسك علشان ده يخص ال3d ومينفعش يتشرح لازم تجرب */
+
+
+/* كل اللي جي ده يخص الترانسفورم d3 */
+
+  /* transform-style: preserve-3d;
+  ده علشان لما تعمل تاثير ظهور حاجه وراحاجه ده بيحفظ مكان كل عنصر 
+  backface-visibility: hidden;
+  ده لما العنصر يلف نص لفه ميظهرش الضهر بتاعو بيختفي علطول 
+  transform: translateY(100deg)
+الرقم ده كل لما تزودو العنصر بيجي عليك اكنو بيخرج من الشاشه يعني 
+perspective-origin: left top;
+وده المنظور اللي انتا باصص على الديف منو يعني في الحاله دي العنصر هيخرج من الشاشه ناحيه الشمال فوق */
+
+
+
+/* كل الي جي ده يخص الانيميشن  
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transform: translate(-50%, -50%);
+  animation-name: color;
+  /* ده الاسم اللي انتا كاتبو جمب الكيفريم علشان تعرف الانيميشن ان هوا ده الديف اللي عيزين نعمللو انيميشن  
+  animation-duration: 6s;
+  /* ده الوقت اللي الانيميشن هياخدو علشان يتم 
+}
+@keyframes color {
+  /* لازم تكتب كيفريم وتسمسه علشان تبدا انيميشن  
+  0% {
+background-color: red;
+  }
+  50% {
+background-color: blue;
+  }
+  100% {
+background-color: red;
+/* الارقام دي بدل form . to 
+  }
+}
+/* اللي فات ده علشان تغير اللونز 
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #e8e3e3;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 5px solid #e91e63;
+  animation-name: spin;
+  animation-duration: 1s;
+  border-left-color: transparent;
+     ده الوقت اللي الانيميشن هياخدو علشان يتم 
+
+  animation-iteration-count: infinite;
+   ده عدد المرات اللي الترانزيشن هيعملها  
+  animation-timing-function: linear;
+   ده خط سير الانيميشن في لحاله دي انتا بتقللوخلش كللو ورا بعض متعماش بطق في النص 
+   animation-direction: reverse ;alternate ;alternate-reverse; 
+   ده اتجاه الانيميشن الكلمه الاولا بتخللي الانيميشن يبدا من الاخر للاول الكلمه التانيه بتخللي الانيميشن يبدا من الاول للاخر بعد كدا من الاخر للاول  
+  animation-delay: 2s;
+   ده اكنك بتقولو استنا سنيتين بعد كدا ابدا 
+  animation-fill-mode: forwards ;
+   الكود ده لما توصل لاخر حاله مش بيرجع للحاله الاساسيه تاني بيفضل على الحاله الاخيره 
+  animation-play-state: running;
+   كده الانيميشن بيفضل شغال لما تروح عليه بلموس بيقف  
+  animation: coloring 3s linear 2s infinite reverse;
+ ده كدا اختصار كل اللي فات 
+}
+div:hover {
+  animation-play-state: paused;
+   كده الانيميشن بيفضل شغال لما تروح عليه بلموس بيقف 
+
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+ اللي فات ده علشان تعمل اللودينج */
+ 
+
+ /* body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+.load div {
+  width: 20px;
+  height: 20px;
+  background-color: orchid;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation-name: up-and-down;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+.load .two {
+  animation-delay: 0.3s;
+}
+.load .three {
+  animation-delay: 0.6s;
+}
+@keyframes up-and-down {
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }
+} */
+
+/* 
+كل اللي جي ده يخص الميديا كويريز 
+
+علشان تعمل كويريز بتكتب @media وجمبها الحاجه اللي انتا عايز تعملها كويريز 
+يعني مثلآ
+
+@media print (
+div 1(
+display:none,)
+ )
+في الحاله ده انتا بتقول لما تيجي تعمل طباعه الديف رقم واحد ميظهرش
+و هنا مثلا 
+@media (min-width: 1000px) {
+div1 {
+ background-color: blue;
+ }
+ }
+انتا هنا بتقللو لو الشاشه اكتر من ١٠٠٠ بكسل عللي الديف رقم ١ لونو ازرق 
+
+وممكن برضو تستعمل الكويريز في الhtml ونتا بتعمل لنك الصفحه زي كدا 
+<link rel="stylesheet" href="css/print.css" media="print" />
+
+ده بقا الحجم المناسب لكل الشاشات اكتبو وحط جواه التنسيقات اللي انتا عايزها بنسبه ٪
+
+@media (max-width: 1199px) { */
